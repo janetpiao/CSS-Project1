@@ -62,6 +62,9 @@ h2 {
 }
 
 /* style sidebar section */
+.sidebar-wrapper {
+  margin-bottom: 40px;
+}
 .sidebar-wrapper .list-group-item {
   border: none;
   background-color: transparent;
@@ -134,6 +137,12 @@ input[type="number"] {
   border-radius: 10px;
   margin-bottom: 24px;
   width: 120px;
+}
+
+/* emphasis third paragraph */
+.productDetails p:nth-of-type(3) {
+  font-weight: 600;
+  color:rgb(8, 117, 226)
 }
 
 /* when input is activated make it red */
