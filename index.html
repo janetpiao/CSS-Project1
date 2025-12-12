@@ -39,9 +39,9 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav ms-4 ms-lg-auto me-lg-4">
-              <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
-              <li class="nav-item">
+            <ul class="navbar-nav ms-4 ms-lg-4 me-lg-4">
+              <li class="nav-item pe-3"><a href="#" class="nav-link">Shop</a></li>
+              <li class="nav-item pe-3 active-navbar-item">
                 <a href="#" class="nav-link">Bestsellers</a>
               </li>
               <li class="nav-item">
@@ -53,19 +53,19 @@
         </nav>
       </header>
       <main class="row">
-        <section class="sidebar-wrapper col-lg-2">
-          <ul class="list-group list-group-flush">
+        <section class="sidebar-wrapper col-xl-2">
+          <ul class="list-group d-flex flex-row flex-xl-column flex-wrap">
             <li class="list-group-item list-group-item-action active">
               <a href="#">A9 Berlinetta</a>
             </li>
             <li class="list-group-item list-group-item-action">
-              <a href="#">C9-R sports car</a>
+              <a href="C9-R.html">C9-R sports car</a>
             </li>
             <li class="list-group-item list-group-item-action">
-              <a href="#">X9 sedan</a>
+              <a href="X9.html">X9 sedan</a>
             </li>
             <li class="list-group-item list-group-item-action">
-              <a href="#">2010 X9-X sport utility</a>
+              <a href="2010X9-X.html">2010 X9-X sport utility</a>
             </li>
             <li class="list-group-item list-group-item-action">
               <a href="#">M9 sport-van</a>
@@ -73,7 +73,7 @@
           </ul>
         </section>
         <!-- section-class="sidebar-wrapper" -->
-        <section class="imageArea col-lg-6 col-md-8">
+        <section class="imageArea col-lg-8 col-xl-6">
           <div class="image-gallery d-flex flex-column align-items-center">
             <div
               class="main-image-box border p-3 mb-3 bg-white d-flex justify-content-center align-items-center"
@@ -92,8 +92,16 @@
               style="width: 100%"
             >
               <div
-                class="thumbnail active-thumbnail border border-danger p-1"
-                style="width: 80px"
+                class="thumbnail active-thumbnail me-3"
+              >
+                <img
+                  src="img/a9_small.jpg"
+                  class="img-fluid"
+                  alt="Thumbnail View"
+                />
+              </div>
+              <div
+                class="thumbnail"
               >
                 <img
                   src="img/a9_small.jpg"
@@ -108,7 +116,7 @@
           <!-- div-class="image-gallery" -->
         </section>
         <!-- section-class="imageArea" -->
-        <section class="productDetails col-lg-4 col-md-4">
+        <section class="productDetails col-lg-4 col-xl-4">
           <h1>A9 Berlinetta</h1>
           <p>Item# 985009</p>
           <p>
@@ -124,10 +132,9 @@
             class="form-control" 
             value="1" 
             min="1" 
-            max="99" 
-            style="width: 80px;">
-          <button class="btn btn-danger">Buy Now</button>
-          <button class="btn btn-dark">Add to Cart</button>
+            max="99" >
+          <button class="buy btn">Buy Now</button>
+          <button class="cart btn">Add to Cart</button>
           </div>
         </section>
         <!-- section-class="productDetails" -->
