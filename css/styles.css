@@ -203,8 +203,14 @@ footer a {
 }
 
 /* ----------- style large screens ----------- */
-@media (min-width: 576px) and (max-width: 1199.98px) {
+@media (max-width: 1199.98px) {
   .sidebar-wrapper .list-group {
-    flex-direction: row !important; /* 强制水平 */
+    justify-content: flex-start;
+  }
+
+  .sidebar-wrapper .list-group-item {
+    padding: 10px 20px;
+    flex: 0 0 auto; 
+    width: auto;      
   }
 }
