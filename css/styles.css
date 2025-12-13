@@ -122,6 +122,22 @@ h2 {
   height: auto;
 }
 
+/* style perspective effect */
+#perspective .scene {
+  display: flex;
+  justify-content: space-around;
+  perspective: 900px;
+  perspective-origin: top;
+}
+
+#perspective .img-fluid {
+  transition: all 0.2s;
+}
+
+#perspective .img-fluid:hover {
+  transform: rotateY(10deg);
+}
+
 /* style productDetails */
 .productDetails h1 {
   font-family: "Bowlby One", cursive;
